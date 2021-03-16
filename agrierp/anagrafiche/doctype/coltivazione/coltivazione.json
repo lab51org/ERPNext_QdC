@@ -8,7 +8,8 @@
  "field_order": [
   "tipo_coltivazione",
   "centro_di_costo_coltivazione",
-  "centro_di_ricavo_coltivazione"
+  "centro_di_ricavo_coltivazione",
+  "amended_from"
  ],
  "fields": [
   {
@@ -32,11 +33,21 @@
    "in_list_view": 1,
    "label": "Centro di Ricavo Coltivazione",
    "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Coltivazione",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2021-03-16 14:33:21.968648",
+ "modified": "2021-03-16 16:37:23.445560",
  "modified_by": "Administrator",
  "module": "Anagrafiche",
  "name": "Coltivazione",
@@ -53,6 +64,20 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],

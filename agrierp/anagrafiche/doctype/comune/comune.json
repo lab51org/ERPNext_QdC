@@ -32,18 +32,16 @@
   },
   {
    "fieldname": "provincia",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Provincia",
-   "options": "\nCUNEO\nIMPERIA\nSAVONA",
    "reqd": 1
   },
   {
    "fieldname": "regione",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Regione",
-   "options": "\nLIGURIA\nPIEMONTE",
    "reqd": 1
   },
   {
@@ -52,9 +50,8 @@
   },
   {
    "fieldname": "abbreviazione_provincia",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Abbreviazione Provincia",
-   "options": "\nCN\nIM\nSV",
    "reqd": 1
   },
   {
@@ -66,7 +63,7 @@
    "fieldname": "legge_991_52",
    "fieldtype": "Select",
    "label": "legge 991/1952",
-   "options": "\nNON MONTANO\nPARZIALMENTE MONTANO\nINTERAMENTE MONTANO\nNON ANCORA DEFINITO",
+   "options": "\nNON MONTANO\nPARZIALMENTE MONTANO\nINTERAMENTE MONTANO",
    "reqd": 1
   },
   {
@@ -77,21 +74,21 @@
    "fieldname": "cee_268_75",
    "fieldtype": "Select",
    "label": "direttiva CEE 268/75",
-   "options": "\nNON SVANTAGGIATO\nPARZIALMENTE SVANTAGGIATO\nINTERAMENTE SVANTAGGIATO\nNON ANCORA DEFINITO",
+   "options": "\nNON SVANTAGGIATO\nPARZIALMENTE SVANTAGGIATO\nINTERAMENTE SVANTAGGIATO",
    "reqd": 1
   },
   {
    "fieldname": "dl_147_97",
    "fieldtype": "Select",
    "label": "decreto legislativo 16/4/1997 n. 146",
-   "options": "\nNON SVANTAGGIATO\nSVANTAGGIATO\nPARTICOLARMENTE SVANTAGGIATO\nNON ANCORA DEFINITO",
+   "options": "\nNON SVANTAGGIATO\nSVANTAGGIATO\nPARTICOLARMENTE SVANTAGGIATO",
    "reqd": 1
   },
   {
    "fieldname": "lr_33_97",
    "fieldtype": "Select",
    "label": "articolo 5 l.r. 33/1997",
-   "options": "\nCLASSE I\nCLASSE II\nCLASSE III\nCLASSE IV\nCLASSE V\nNON ANCORA DEFINITO",
+   "options": "\nCLASSE I\nCLASSE II\nCLASSE III\nCLASSE IV\nCLASSE V",
    "reqd": 1
   },
   {
@@ -113,7 +110,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-03-16 15:08:34.629541",
+ "modified": "2021-03-16 16:38:10.360319",
  "modified_by": "Administrator",
  "module": "Anagrafiche",
  "name": "Comune",
@@ -139,32 +136,8 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Agriculture Manager",
-   "share": 1,
-   "submit": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Agriculture User",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
    "role": "All",
+   "select": 1,
    "share": 1,
    "submit": 1,
    "write": 1
